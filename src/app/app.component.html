@@ -1,0 +1,35 @@
+<div class="d-flex flex-column">
+	<div class="bg">
+		<div style="background:#36bea6;">
+			<span style="color: #fff" class="ml-1">Old Panzoom - I can still drag that mini draggable inside</span>
+		</div>
+		<div #dragBounds class="container1">
+
+			<div ngDraggable [bounds]="dragBounds" [handle]="DemoHandle" class="sample" [inBounds]="true"
+				[preventDefaultEvent]="true">
+				<div #DemoHandle>
+					<div>
+						<span class="ml-1 mdi mdi-18px mdi-drag-variant"></span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="bg">
+
+		<div style="background:#36bea6;">
+			<span style="color: #fff" class="ml-1">New Panzoom - you cant drag the mini draggable inside.. even using cdk or other lib.</span>
+		</div>
+		<div #dragBounds2 class="container2">
+			<div ngDraggable [bounds]="dragBounds2" [handle]="DemoHandle2" class="sample2" [inBounds]="true"
+				[preventDefaultEvent]="true">
+				<div #DemoHandle2>
+					<div>
+						<span class="ml-1 mdi mdi-18px mdi-drag-variant"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

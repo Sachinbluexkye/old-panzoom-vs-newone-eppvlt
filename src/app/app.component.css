@@ -1,0 +1,33 @@
+p {
+  font-family: Lato;
+}
+
+.container1 {
+  height: 200px;
+    width: 200px;
+  background-color: #8a7bed;
+}
+
+
+.container2 {
+    height: 200px;
+    width: 200px;
+    background-color: #f26587;
+}
+
+.sample{
+  width: 50px;
+  height:  50px;
+  background: #f26587;
+}
+
+.sample2{
+  width: 50px;
+  height:  50px;
+  background: #8a7bed;
+}
+
+.bg{
+  background: #454646;
+  height: 400px; 
+}
